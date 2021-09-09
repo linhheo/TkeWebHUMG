@@ -1,0 +1,22 @@
+* {
+    font-family: 'Dancing Script', cursive;
+    background-color: #9999CC;
+}
+.div1 {
+    text-align: center;
+    width: 500px;
+    border-radius: 3px;
+    padding: 25px;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+.img1{
+    border-radius: 100%;
+}
+
+.img-mxh{
+    margin: 10px;
+}
+
+
+
