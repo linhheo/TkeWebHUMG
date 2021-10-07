@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- dòng bên dưới là tạo icon cho trang web. phần type quan trọng -->
+    <link rel="shortcut icon" type="image/ico" href="/Assignments/hinhanh/favicon.ico"/>
+    <link rel="stylesheet" href="../CSS/NguyenPhuongThuyLinh_kbyt.css">
+    <title>Hệ thống thông tin quản lý khai báo y tế</title>
+</head>
+<body>
+    <div class="head" align="center">
+        <div class="head1">
+            <caption>TỜ KHAI Y TẾ</caption><br>
+            <caption>BỆNH VIỆN NHI TRUNG ƯƠNG</caption><br>
+        </div>
+        <div class="head2">
+            <p><i>
+                VIỆC CUNG CẤP THÔNG TIN VÀ PHỐI HỢP THAM GIA CỦA ÔNG/BÀ LÀ TỰ NGUYỆN VÀ TRUNG THỰC VÌ MỤC ĐÍCH CHỐNG DỊCH COVID-19<br>
+                THÔNG TIN KHAI BÁO CÓ GIÁ TRỊ SỬ DỤNG TRONG 24 GIỜ
+            </i></p>
+        </div>
+    </div>
+
+    <div class="khaibao">
+        <div class="choose">
+            <input class="choose-1" type="radio" name="object" value="Người bệnh">
+            <label>Người bệnh</label>
+            <input class="choose-1" type="radio" name="object" value="Người nhà">
+            <label>Người nhà</label>
+            <input class="choose-1" type="radio" name="object" value="Khai hộ">
+            <label>Khai hộ</label>
+            <input class="choose-1" type="radio" name="object" value="Nhân viên y tế">
+            <label>Nhân viên y tế</label>
+            <input class="choose-1" type="radio" name="object" value="Khác">
+            <label>Khác</label>
+        </div>
+
+        <div class="khaibaoyte">
+            <div class="Benhnhan-id">
+                Mã bệnh nhân:<br>
+                <input class="nhapnoidung" type="number" placeholder="Nhập mã bệnh nhân" maxlength="9">
+            </div>
+            <div class="Benhnhan-sdt">
+                Số điện thoại <span style="color: red"><i>(*)</i></span>:<br>
+                <input class="nhapnoidung" type="number" placeholder="Số điện thoại liên lạc" maxlength="10">
+            </div>
+            <div class="Benhnhan-name">
+                Họ và tên <span style="color: red"><i>(*)</i></span>:<br>
+                <input class="nhapnoidung" type="text" placeholder="Họ và tên"><!-- Tách riêng input thành 1 khối -->
+            </div>
+            <div class="Benhnhan-birthday">
+                Ngày sinh:<br>
+                    <select class="Benhnhan-select-day">
+                        <option value>Ngày</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option valua="13">13</option>
+                        <option valua="14">14</option>
+                        <option valua="15">16</option>
+                        <option valua="17">17</option>
+                        <option valua="18">18</option>
+                        <option valua="19">19</option>
+                        <option valua="20">20</option>
+                        <option valua="21">21</option>
+                        <option valua="22">22</option>
+                        <option valua="23">23</option>
+                        <option valua="24">24</option>
+                        <option valua="25">25</option>
+                        <option valua="26">26</option>
+                        <option valua="27">27</option>
+                        <option valua="28">28</option>
+                        <option valua="29">29</option>
+                        <option valua="30">30</option>
+                        <option valua="31">31</option>
+                    </select>
+                    <select class="Benhnhan-select-month">
+                        <option value>Tháng</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                    <select class="Benhnhan-select-year">
+                        <option valua>Năm</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                        <option value="2014">2014</option>
+                        <option value="2013">2013</option>
+                        <option value="2012">2012</option>
+                        <option value="2011">2011</option>
+                        <option value="2010">2010</option>
+                        <option value="2009">2009</option>
+                        <option value="">2008</option>
+                        <option value="">2007</option>
+                        <option value="">2006</option>
+                        <option value="">2005</option>
+                        <option value="">2004</option>
+                        <option value="">2003</option>
+                        <option value="">2002</option>
+                        <option value="">2001</option>
+                        <option value="">1999</option>
+                        <option value="">1998</option>
+                        <option value="">1997</option>
+                        <option value="">1996</option>
+                        <option value="">1995</option>
+                        <option value="">1994</option>
+                        <option value="">1993</option>
+                        <option value="">1992</option>
+                        <option value="">1991</option>
+                        <option value="">1990</option>
+                        <option value="">1989</option>
+                        <option value="">1988</option>
+                        <option value="">1987</option>
+                        <option value="">1986</option>
+                        <option value="">1985</option>
+                        <option value="">1984</option>
+                        <option value="">1983</option>
+                        <option value="">1982</option>
+                        <option value="">1981</option>
+                        <option value="">1980</option>
+                        <option value="">1979</option>
+                        <option value="">1976</option>
+                        <option value="">1975</option>
+                    </select>
+            </div>
+            <div class="Benhnhan-sex">
+                Giới tính <span style="color: red"><i>(*)</i></span>:<br>
+                <select class="Benhnhan-select-sex">
+                    <option value>Giới tính</option>
+                    <option value="Nam">Nam</option>
+                    <option value="Nữ">Nữ</option>
+                    <option value="Giới tính khác">Giời tính khác</option>
+                </select>
+            </div>
+            <div class="Benhnhan-diachi">
+                Địa chỉ <span style="color: red"><i>(*)</i></span>:<br>
+                <input class="nhapnoidung" type="text" placeholder="Địa chỉ">
+            </div>
+            <div class="Benhnhan-lydo">
+                Lý do đến viện <span style="color: red"><i>(*)</i></span>:<br>
+                <input class="nhapnoidung" type="text" placeholder="Lý do đến viện">
+            </div>
+            <div class="Benhnhan-dauhieu">
+                Hiện tại bạn có những dấu hiệu nào sau đây <span style="color: red"><i>(*)</i></span>:
+                <table class="form-dauhieu" border="1">
+                    <thead>
+                        <tr>
+                            <th align="left">Dấu hiệu</th>
+                            <th class="text-center">Có</th>
+                            <th class="text-center">Không</th>
+                        </tr>
+                    </thead><br>
+                    <tbody>
+                        <tr>
+                            <td>Ho <span style="color: red"><i>(*)</i></span></td>
+                            <td class="text-center">
+                                <input type="radio" name="ho" id="ho_1" value="1">
+                            </td>
+                            <td class="text-center">
+                                <input type="radio" name="ho" id="ho_2" value="2">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Sốt <span style="color: red"><i>(*)</i></span></td>
+                            <td class="text-center">
+                                <input type="radio" name="sot" id="sot_1" value="1">
+                            </td>
+                            <td class="text-center">
+                                <input type="radio" name="sot" id="sot_2" value="2">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Đau mỏi người <span style="color: red"><i>(*)</i></span></td>
+                            <td class="text-center">
+                                <input type="radio" name="daumoi" id="daumoi_1" value="1">
+                            </td>
+                            <td class="text-center">
+                                <input type="radio" name="daumoi" id="daumoi_2" value="2">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Mất vị giác hoặc khứu giác <span style="color: red"><i>(*)</i></span></td>
+                            <td class="text-center">
+                                <input type="radio" name="mcg" id="mcg_1" value="1">
+                            </td>
+                            <td class="text-center">
+                                <input type="radio" name="mcg" id="mcg_2" value="2">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="Benhnhan-14days">
+                Trong 14 ngày qua bạn có <span style="color: red"><i>(*)</i></span>:
+                <table class="form-14days" border="1">
+                    <thead>
+                    <tr>
+                        <th class="gonlai" align="left">Yếu tố dịch tễ <span style="color: red"><i>(*)</i></span></th>
+                        <th class="text-center">Có</th>
+                        <th class="text-center">Không</th>
+                    </tr>
+                    </thead><br>
+                    <tbody>
+                    <tr>
+                        <td>Tiếp xúc với dương tính hoặc nghi ngờ COVID-19 <span style="color: red"><i>(*)</i></span></td>
+                        <td class="text-center">
+                            <input type="radio" name="tx1" id="tx1_1" value="1">
+                        </td>
+                        <td class="text-center">
+                            <input type="radio" name="tx1" id="tx1_2" value="2">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Tiếp xúc với trường hợp sốt hoặc viêm đường hô hấp cấp tính chưa rõ nguyên nhân khi tới vùng có COVID-19 <span style="color: red"><i>(*)</i></span></td>
+                        <td class="text-center">
+                            <input type="radio" name="tx2" id="tx2_1" value="1">
+                        </td>
+                        <td class="text-center">
+                            <input type="radio" name="tx2" id="tx2_2" value="2">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Đi đến các quốc gia khác hoặc tiếp xúc trực tiếp với người trở về từ quốc gia khác <span style="color: red"><i>(*)</i></span></td>
+                        <td class="text-center">
+                            <input type="radio" name="tx3" id="tx3_1" value="1">
+                        </td>
+                        <td class="text-center">
+                            <input type="radio" name="tx3" id="tx3_2" value="2">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Đang cách ly tại nhà hoặc tiếp xúc với người đang cách ly tại nhà theo chỉ đạo CDC Tỉnh, Thành phố <span style="color: red"><i>(*)</i></span></td>
+                        <td class="text-center">
+                            <input type="radio" name="tx4" id="tx4_1" value="1">
+                        </td>
+                        <td class="text-center">
+                            <input type="radio" name="tx4" id="tx4_2" value="2">
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="Benhnhan-nhap">
+                <textarea rows="2" placeholder="Vui lòng nhập rõ quốc gia, địa điểm mà bạn từng đến"></textarea>
+            </div>
+        </div>
+
+        <div class="button">
+            <input type="button" value="Gửi">
+        </div>
+    </div>
+</body>
+</html>
