@@ -152,7 +152,7 @@
                     <option value>Giới tính</option>
                     <option value="Nam">Nam</option>
                     <option value="Nữ">Nữ</option>
-                    <option value="Giới tính khác">Giời tính khác</option>
+                    <option value="Giới tính khác">Giới tính khác</option>
                 </select>
             </div>
             <div class="Benhnhan-diachi">
@@ -168,14 +168,14 @@
                 <table class="form-dauhieu" border="1">
                     <thead>
                         <tr>
-                            <th align="left">Dấu hiệu</th>
-                            <th class="text-center">Có</th>
-                            <th class="text-center">Không</th>
+                            <th class="dauhieu-14days" align="left">Dấu hiệu</th>
+                            <th width="15%" class="text-center">Có</th>
+                            <th width="15%" class="text-center">Không</th>
                         </tr>
                     </thead><br>
-                    <tbody>
+                    <tbody class="tbody-dauhieu">
                         <tr>
-                            <td>Ho <span style="color: red"><i>(*)</i></span></td>
+                            <td class="dauhieu-14days">Ho <span style="color: red"><i>(*)</i></span></td>
                             <td class="text-center">
                                 <input type="radio" name="ho" id="ho_1" value="1">
                             </td>
@@ -184,7 +184,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Sốt <span style="color: red"><i>(*)</i></span></td>
+                            <td class="dauhieu-14days">Sốt <span style="color: red"><i>(*)</i></span></td>
                             <td class="text-center">
                                 <input type="radio" name="sot" id="sot_1" value="1">
                             </td>
@@ -193,7 +193,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Đau mỏi người <span style="color: red"><i>(*)</i></span></td>
+                            <td class="dauhieu-14days">Đau mỏi người <span style="color: red"><i>(*)</i></span></td>
                             <td class="text-center">
                                 <input type="radio" name="daumoi" id="daumoi_1" value="1">
                             </td>
@@ -202,7 +202,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Mất vị giác hoặc khứu giác <span style="color: red"><i>(*)</i></span></td>
+                            <td class="dauhieu-14days">Mất vị giác hoặc khứu giác <span style="color: red"><i>(*)</i></span></td>
                             <td class="text-center">
                                 <input type="radio" name="mcg" id="mcg_1" value="1">
                             </td>
@@ -218,14 +218,14 @@
                 <table class="form-14days" border="1">
                     <thead>
                     <tr>
-                        <th class="gonlai" align="left">Yếu tố dịch tễ <span style="color: red"><i>(*)</i></span></th>
-                        <th class="text-center">Có</th>
-                        <th class="text-center">Không</th>
+                        <th class="dauhieu-14days" align="left">Yếu tố dịch tễ <span style="color: red"><i>(*)</i></span></th>
+                        <th width="15%" class="text-center">Có</th>
+                        <th width="15%" class="text-center">Không</th>
                     </tr>
                     </thead><br>
-                    <tbody>
+                    <tbody class="tbody-14days">
                     <tr>
-                        <td>Tiếp xúc với dương tính hoặc nghi ngờ COVID-19 <span style="color: red"><i>(*)</i></span></td>
+                        <td class="dauhieu-14days">Tiếp xúc với dương tính hoặc nghi ngờ COVID-19 <span style="color: red"><i>(*)</i></span></td>
                         <td class="text-center">
                             <input type="radio" name="tx1" id="tx1_1" value="1">
                         </td>
@@ -234,7 +234,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>Tiếp xúc với trường hợp sốt hoặc viêm đường hô hấp cấp tính chưa rõ nguyên nhân khi tới vùng có COVID-19 <span style="color: red"><i>(*)</i></span></td>
+                        <td class="dauhieu-14days">Tiếp xúc với trường hợp sốt hoặc viêm đường hô hấp cấp tính chưa rõ nguyên nhân khi tới vùng có COVID-19 <span style="color: red"><i>(*)</i></span></td>
                         <td class="text-center">
                             <input type="radio" name="tx2" id="tx2_1" value="1">
                         </td>
@@ -243,7 +243,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>Đi đến các quốc gia khác hoặc tiếp xúc trực tiếp với người trở về từ quốc gia khác <span style="color: red"><i>(*)</i></span></td>
+                        <td class="dauhieu-14days">Đi đến các quốc gia khác hoặc tiếp xúc trực tiếp với người trở về từ quốc gia khác <span style="color: red"><i>(*)</i></span></td>
                         <td class="text-center">
                             <input type="radio" name="tx3" id="tx3_1" value="1">
                         </td>
@@ -252,7 +252,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>Đang cách ly tại nhà hoặc tiếp xúc với người đang cách ly tại nhà theo chỉ đạo CDC Tỉnh, Thành phố <span style="color: red"><i>(*)</i></span></td>
+                        <td class="dauhieu-14days">Đang cách ly tại nhà hoặc tiếp xúc với người đang cách ly tại nhà theo chỉ đạo CDC Tỉnh, Thành phố <span style="color: red"><i>(*)</i></span></td>
                         <td class="text-center">
                             <input type="radio" name="tx4" id="tx4_1" value="1">
                         </td>
@@ -264,7 +264,7 @@
                 </table>
             </div>
             <div class="Benhnhan-nhap">
-                <textarea rows="2" placeholder="Vui lòng nhập rõ quốc gia, địa điểm mà bạn từng đến"></textarea>
+                <textarea class="textarea-Benhnhan-nhap" rows="2" placeholder="Vui lòng nhập rõ quốc gia, địa điểm mà bạn từng đến"></textarea>
             </div>
         </div>
 
