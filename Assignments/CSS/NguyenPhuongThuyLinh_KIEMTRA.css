@@ -1,0 +1,30 @@
+.info{
+    width: 1000px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 25px;
+    /*margin-left: 130px;
+    margin-top: 30px;*/
+    margin: auto;
+}
+.hocvan{
+    width: 1000px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 25px;
+    /*margin-left: 130px;
+    margin-top: 30px;*/
+    margin: auto;
+}
+.nhapnoidung{
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 7px;
+    width: 450px;
+}
+.nhapnoidung-1{
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 7px;
+    width: 1000px;
+}

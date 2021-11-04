@@ -1,0 +1,135 @@
+*{
+    font-family: 'Barlow', sans-serif;
+}
+
+.button-cv a, .button-contacthead a{
+    text-decoration: none;
+    color: black;
+}
+.button-cv, .button-contacthead{
+    padding: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    margin: 30px;
+    background-color: whitesmoke;
+}
+.button-cv:hover, .button-contacthead:hover{
+    background-color: gray;
+    color: white;
+    transition: 350ms;
+}
+
+.cv{
+    width: 800px;
+    height: 1200px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: auto;
+}
+
+.info{
+    background-color: #666666;
+    float: left;
+    width: 300px;
+    height: 1200px;
+    font-size: x-small;
+    color: white;
+}
+.me{
+    width: 200px;
+    border-radius: 100%;
+    border: 3px solid white;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+.contact{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+.contact-img{
+    width: 20px;
+}
+.header{
+    margin-left: 50px;
+    font-size: 20px;
+}
+.check-img{
+    width: 17px;
+}
+.kynang-main{
+    margin-top: 12px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.hobby-main{
+    margin-top: 12px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.hobby-img{
+    width: 20px;
+}
+
+.description{
+    margin-left: 330px;
+    margin-right: 17px;
+    font-size: x-small;
+}
+.name{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 100px;
+    height: 150px;
+}
+.edu-header,.kinhnghiem-header,.muctieu-header{
+    text-align: center;
+    background-color: #cccccc;
+    padding: 6px;
+}
+.edu-time,.kinhnghiem-time{
+    padding: 10px;
+}
+.edu-chitiet,.kinhnghiem-main,.muctieu-main{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.kinhnghiem-sale{
+    border-top: 1px solid #cccccc;
+}
+
+.form-contact{
+    text-align: center;
+}
+.form-contact-head{
+    font-size:30px;
+    padding: 20px;
+}
+.input-contact-main{
+    width: 500px;
+    padding: 7px;
+    margin: 3px;
+}
+.textarea-contact-main{
+    min-width: 300px;
+    max-width: 510px;
+    width: 100%;
+}
+.button-contact-main{
+    padding: 7px;
+    margin: 7px;
+    width: 200px;
+    border-radius: 5px;
+}
+.button-contact-main:hover{
+    background-color: #cccccc;
+    color: white;
+    transition: 350ms;
+}
+.button-back-head{
+    float: right;
+}
+
+
+
+
